@@ -10,8 +10,7 @@
     <div>
         <h1>POO Avanzat nivell 2</h1>
         <!--
-            Escriu un programa que defineixi una classe Shape amb un constructor que rebi com a paràmetres l'ample i alt. 
-            Defineix dues subclasses; Triangle i Rectangle que heretin de Shape i que calculin respectivament l'àrea de la figura.
+            Seguint l’exercici anterior, imagina com ampliaries l’estructura que has creat per representar un Cercle i el seu corresponent càlcul d’àrea.
         -->
         <?php          
             abstract class Shape {
