@@ -16,29 +16,10 @@
 
             Crea almenys 2 animals. 
         -->
-        <?php          
-            class Animal {                
-                public function __construct() {
-                }  
-                public function Sound(){
-                    echo "Animal sound<br>";
-                }
-            }
-            class Dog extends Animal{
-                public function __construct() {
-                }  
-                public function Sound(){
-                    echo "Dog sound<br>";
-                }
-            }
-            class Cat extends Animal{
-                public function __construct() {
-                }  
-                public function Sound(){
-                    echo "Cat sound<br>";
-                }
-            }
-
+        <?php
+            require_once('Animal.php');
+            require_once('Dog.php');
+            require_once('Cat.php');
             $Animal1 = new Animal();
             $Animal1->Sound();
 
@@ -46,9 +27,7 @@
             $Dog1->Sound();
 
             $Cat1 = new Cat();
-            $Cat1->Sound();
-
-        
+            $Cat1->Sound();        
         ?>
     </div>
 </body>
