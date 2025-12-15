@@ -3,7 +3,7 @@
         public function __construct() {
         }
         public function Sound(){
-            echo "Animal sound<br>";
+            echo "Animal sound". PHP_EOL;
         }
     }
 ?>

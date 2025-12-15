@@ -8,7 +8,7 @@
         }
         protected function Area(){
             $Result = $this->radius * self::PI;
-            echo "L'area del cercle es: " . $Result . "<br>"; 
+            echo "L'area del cercle es: " . $Result . PHP_EOL; 
         }
     }
 ?>
