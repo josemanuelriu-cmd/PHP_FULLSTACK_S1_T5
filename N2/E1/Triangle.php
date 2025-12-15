@@ -1,8 +1,14 @@
 <?php
-    class Triangle extends Shape {
-        protected function Area(){
+    class Triangle implements Shape{
+        public $width;
+        public $high;
+        public function __construct($width, $high) {
+            $this->width = $width;
+            $this->high = $high;
+        }
+        public function GetArea():string{
             $Result = $this->width * $this->high / 2;
-            echo "L'area del triange es: " . $Result . PHP_EOL; 
+            return "L'area del triange es: " . $Result . PHP_EOL; 
         }
     }
 ?>
