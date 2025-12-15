@@ -1,9 +1,12 @@
 <?php
-    class Dog extends Animal{
-        public function __construct() {
+    class Dog implements Animal{
+        public $Name;
+
+        public function __construct($Name) {
+            $this->Name = $Name;
         }  
-        public function Sound(){
-            echo "Dog sound". PHP_EOL;
+        public function Sound():string{
+            return "Ladrido". PHP_EOL;
         }
     }
 ?>
