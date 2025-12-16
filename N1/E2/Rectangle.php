@@ -11,9 +11,5 @@
             $Result = $this->width * $this->high;
             return "L'area del rectangle es: " . $Result . PHP_EOL; 
         }
-        public function Area():string{
-            $Result = $this->width * $this->high;
-            return "L'area del rectangle es: " . $Result . PHP_EOL; 
-        }
     }
 ?>

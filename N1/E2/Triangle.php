@@ -10,9 +10,5 @@
             $Result = $this->width * $this->high / 2;
             return "L'area del triange es: " . $Result . PHP_EOL; 
         }
-        public function Area():string{
-            $Result = $this->width * $this->high / 2;
-            return "L'area del triange es: " . $Result . PHP_EOL; 
-        }
     }
 ?>
