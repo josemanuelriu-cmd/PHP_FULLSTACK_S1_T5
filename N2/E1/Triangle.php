@@ -1,7 +1,7 @@
 <?php
     class Triangle implements Shape{
-        public $width;
-        public $high;
+        /*public $width;
+        public $high;*/
         public function __construct($width, $high) {
             $this->width = $width;
             $this->high = $high;

@@ -6,7 +6,7 @@
             $this->Name = $name;
         }
         public function Sound():string{
-            return "Maullido". PHP_EOL;
+            return "Miau". PHP_EOL;
         }
     }
 ?>
