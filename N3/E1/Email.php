@@ -6,7 +6,8 @@ Class Email extends Message{
         parent::__construct($Message, $Addressee);
     }
 
-    public function Notify(){
+    public function Notify(): void
+    {
         if (filter_var($this->Addressee, FILTER_VALIDATE_EMAIL)) {
             echo "Enviem Email".PHP_EOL;
             echo "Destinatari: ".$this->Addressee.PHP_EOL;
