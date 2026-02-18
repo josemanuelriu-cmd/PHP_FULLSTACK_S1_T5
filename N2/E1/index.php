@@ -14,6 +14,6 @@
     $Rectangle = new Rectangle(10, 12);
     echo $Rectangle->GetArea();  
 
-    $Cercle = new Circle(20);
+    $Cercle = new Circle(10);
     echo $Cercle->GetArea();
 ?>
